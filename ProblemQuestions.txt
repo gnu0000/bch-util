@@ -1,0 +1,32 @@
+1221  sdfsfsfsdfs
+11    Incomplete/missing/suspected incorrect
+930   Incomplete/missing/suspected incorrect
+2486  Incomplete/missing/suspected incorrect
+2487  Incomplete/missing/suspected incorrect
+2496  Incomplete/missing/suspected incorrect
+2497  Incomplete/missing/suspected incorrect
+2498  Incomplete/missing/suspected incorrect
+2514  Incomplete/missing/suspected incorrect
+2515  Incomplete/missing/suspected incorrect
+2516  Incomplete/missing/suspected incorrect
+2517  Incomplete/missing/suspected incorrect
+1013  There is a question mark in the middle of a word
+1019  Translation is wrong (supposed to say relationship with parents, it says relationship with peers)
+1020  Translation is wrong (supposed to say relationship with siblings, says follows directions/rules)
+1021  Translation is wrong (supposed to say relationship with peers, says disrupts class)
+1022  Translation is wrong (supposed to say participation is organized activities, says completes assignments)
+1221  Incomplete
+1256  There is a hyperlink in english that is not on the spanish side
+1298  The only question in spanish that has a the double question marks (upside down one at the beginning as well). Do you want to be consistent with these throughout?
+1316  Missing a green “firstname,” unclear where to put it
+1319  Missing a green “firstname,” unclear  where to put it, also the translation is very strange (maybe this is how you say it in spanish?)
+1348  Has not been translated-- the spanish side is completely in english
+1405  Missing the green “months” at the top on the spanish side. I’m not sure where to put it
+1443  1528. The acronym for autism/ pervasive developmental disorder (PDD) is used on the spanish side but doesn’t match up with the spanish translation of autism. Is this okay?
+5290  Translation
+5694  Need green ‘support email’ in spanish version
+5695  Need to finish translation
+5758  Need to fix the email link for both English and Spanish
+5882  Missing a green ‘firstname’
+5938  Finish Translating
+7206  Translate the examples
