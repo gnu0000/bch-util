@@ -12,8 +12,8 @@ CompareUIFields.pl ........... Compare the uifields and langui from 2 databases
 DumpDuplicates.pl ............ Displays Duplicate uifield/question/response Text 
 FindText.pl .................. Find and dump Trivox Text Fields
 FindVars.pl .................. Find <variables> in questiontext and responsetext fields
-FixBrokenGMIs.pl ............. fix broken groupmembershipinclusions
-FixInteractions.pl ........... fix broken groupids in interactionTemplates
+FixBrokenGMIs.pl ............. Fix broken groupmembershipinclusions
+FixInteractions.pl ........... Fix broken groupids in interactionTemplates
 fixrebel.pl .................. Change the drive letters in rebel.xml files to work with the current environment
 GenerateModuleIndicies.pl .... Generate module indexes for the web based editor
 GenModuleQuestions.pl ........ Generate question indexes for the web based editor
