@@ -1,9 +1,10 @@
 #!perl
 #
 # UifieldFixLast.pl
-#
 # This utility is for cleaning up Uifield/langui text
 #
+# Craig Fitzgerald
+
 # This utility is the last step in cleaning up the uifields when adding a 
 #  new foreign language. 
 #
@@ -21,7 +22,8 @@
 #  get usage information.
 #
 # See the README for more information.
-#
+
+
 use warnings;
 use strict;
 use HTML::Entities;

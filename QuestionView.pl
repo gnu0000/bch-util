@@ -1,9 +1,10 @@
 #!perl
 #
 # QuestionView.pl
-#
 # This utility is for examining question/questiontext text
 #
+# Craig Fitzgerald
+
 # This utility is usefull for determining what problems exist, what 
 #  foreign fields are missing, what <var> names are present, etc...
 #
@@ -45,7 +46,8 @@
 #
 #     QuestionView.pl -language=spanish -e -f -idsonly > 5912
 #     QuestionView.pl -language=portuguese -e -f -idsonly > 5265
-#
+
+
 use warnings;
 use strict;
 use feature 'state';

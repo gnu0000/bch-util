@@ -3,6 +3,9 @@
 # FixRebel.pl
 # Change the drive letters in rebel.xml files to work with the current environment
 #
+# Craig Fitzgerald
+
+
 use warnings;
 use strict;
 

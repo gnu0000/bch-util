@@ -1,10 +1,9 @@
 #!perl
 #
-# AddLanguage.pl
-#
-# This utility is for adding a new language or backfilling an existing language
-# to Trivox
+# Latin1toUtf8.pl
+# Convert text from Latin1 to utf8
 # 
+# Craig Fitzgerald
 
 
 use warnings;

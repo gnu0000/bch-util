@@ -1,9 +1,10 @@
 #!perl
 #
 # FindVars.pl
+# Find <variables> in questiontext and responsetext fields
 #
-# This utility is for examining id's for a survey
-#
+# Craig Fitzgerald
+
 
 use warnings;
 use strict;
@@ -101,9 +102,9 @@ sub VarStrings
 __DATA__
 
 [usage]
-FindText.pl  - Utility to find and dump Trivox Text Fields
+FindVars.pl  - Find <variables> in questiontext and responsetext fields
 
-USAGE: FindText.pl [options] "text"
+USAGE: FindVars.pl [options] "text"
 
 WHERE: [options] are one or more of:
    -uifields .......... Only look at uifeld text

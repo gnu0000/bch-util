@@ -1,9 +1,10 @@
 #!perl
 #
-# CompareResponses.pl
+# AddResponseTranslations.pl
+# This utility copies response translations from the demo to production DB
 #
-# This utility is for examining the responses in a module from 2 different databases
-#
+# Craig Fitzgerald
+
 
 use warnings;
 use strict;
@@ -255,40 +256,18 @@ __DATA__
 
 [usage]
 
-todo .....
+todo ..... 
+AddResponseTranslations.pl  -  
+This utility copies response translations from the demo to production DB
 
-
-xxxCompareResponses - Compare the questions of a module from 2 databases
-                      questionnaires and demo_questionnaires
-
-USAGE: CompareResponses.pl [options]
+USAGE: AddResponseTranslations.pl [options]
 
 WHERE: [options] are one or more of:
-   -moduleid=160 ...... Dump this module (required)
-   -insert ............ (See NOTES Below)
-   -debug ............. Print out lots of info
-   -host=foo .......... Set the mysqlhost (localhost)
-   -username=foo ...... Set the mysqlusername (avocate)
-   -password=foo ...... Set the mysqlpassword (****************)
+   -test 
+   -doit 
+   -host 
+   -username 
+   -password
+   -help
 
-EXAMPLES:
-   CompareResponses.pl -mod=160 
-   CompareResponses.pl -mod=160 -debug
-   CompareResponses.pl -mod=160 -insert
-
-NOTES:
-   The -insert option is to handle a special case:
-     The pre conditions are as follows (for a specific module):
-        1> demo_questionnaires has new spanish responsetext
-        2> questionnaires has been updated so that none of the
-           responseids for the module match between dbs
-        3> Sometimes the exact same text is repeated, and the
-           translator did not populate all copies.
-     The insert option does the following:
-        Where there are questionnaires.responses that do not have
-        spanish responsetext, and demo_questionnaires.responses that
-        have (essentially) the same english text, we copy the spanish
-        responsetext from demo_questionnaires to questionnaires.
-
-   In other words, you dont want to use the -insert option unless
-     you have a module that needs major work.
+[fini]

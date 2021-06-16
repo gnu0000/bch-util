@@ -1,9 +1,10 @@
 #!perl
 #
 # IDDumper.pl
+# Utility to dump Trivox Set or Module IDs
 #
-# This utility is for examining id's for a survey
-#
+# Craig Fitzgerald
+
 
 use warnings;
 use strict;

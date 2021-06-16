@@ -1,9 +1,10 @@
 #!perl
 #
 # IDDumper.pl
+# Compare module ID's between 2 databases
 #
-# This utility is for examining id's for a survey
-#
+# Craig Fitzgerald
+
 
 use warnings;
 use strict;
@@ -237,16 +238,11 @@ __DATA__
 
 [usage]
 
+CompareDBs.pl  - Compare module IDs between 2 databases
 
+USAGE: CompareDBs.pl [options]
 
-todo ..............
-
-
-CompareDB's777.pl  - Utility to dump Trivox Set or Module IDs
-
-USAGE: IDDumper.pl [options]
-
-WHERE: [options] are one or more of:
+WHERE: [options] are zero or more of:
    -setid=## .......... Dump this set
    -moduleid=## ....... Dump this module
    -host=foo .......... Set the mysqlhost (localhost)
@@ -255,5 +251,5 @@ WHERE: [options] are one or more of:
    -database=name ..... optionally provide the db name (questionnaires)
 
 EXAMPLES:
-   IDDumper.pl -set=1
-   IDDumper.pl -mod=34
+   CompareDBs.pl -set=1
+   CompareDBs.pl -mod=34

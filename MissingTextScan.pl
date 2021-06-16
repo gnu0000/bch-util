@@ -1,10 +1,10 @@
 #!perl
 #
 # MissingTextScan.pl
+# Scan Trivox metadata for missing text data
 #
-# This utility is for examining id's for a survey
-#
-#
+# Craig Fitzgerald
+
 # This module set comes from the original translation doc:
 #
 #my @MODULE_IDS =
@@ -14,7 +14,7 @@
 #    162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,181,182,
 #    183,184,185,192,193,195,196,197,198,199,200,201,202,204,205,206,213,216,
 #    217,218,219,220,221,222,223,224,225,227,228,229,230,231,232,234,235,236,237);
-#
+
 # This module set has teacher modules removed
 #
 my @MODULE_IDS =
@@ -24,6 +24,7 @@ my @MODULE_IDS =
     162,163,164,165,166,167,168,169,176,177,181,182,
     183,184,185,192,193,195,196,197,198,199,200,201,202,204,205,206,213,216,
     217,218,219,220,221,222,223,224,225,227,228,230,231,232,234,237);
+
 
 #my @MODULE_IDS = (124);
 

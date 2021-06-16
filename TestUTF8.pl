@@ -1,10 +1,7 @@
 #!perl
 #
-# AddLanguage.pl
-#
-# This utility is for adding a new language or backfilling an existing language
-# to Trivox
 # 
+# Craig Fitzgerald
 
 
 use warnings;
@@ -139,7 +136,6 @@ sub Transcode
 #   return $dest;
 #   #my $dest = encode_utf8($source);   # messes up
 #   #return $source;
-
 
    DumpSample($source,1);
    my $source2 = LoadSample(2);

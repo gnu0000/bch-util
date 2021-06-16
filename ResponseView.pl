@@ -1,9 +1,10 @@
 #!perl
 #
 # ResponseView.pl
-#
 # This utility is for examining response/responsetext text
 #
+# Craig Fitzgerald
+
 # This utility is usefull for determining what problems exist, what 
 #  foreign fields are missing, what <var> names are present, etc...
 #
@@ -45,7 +46,8 @@
 #
 #     ResponseView.pl -language=spanish -e -f -idsonly > 5912
 #     ResponseView.pl -language=portuguese -e -f -idsonly > 5265
-#
+
+
 use warnings;
 use strict;
 use feature 'state';

@@ -1,9 +1,10 @@
 #!perl
 #
 # FindText.pl
+# Utility to find and dump Trivox Text Fields
 #
-# This utility is for examining id's for a survey
-#
+# Craig Fitzgerald
+
 
 use warnings;
 use strict;

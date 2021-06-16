@@ -1,9 +1,10 @@
 #!perl
 #
 # UifieldView.pl 
-#
 # This utility is for examining Uifield/langui text
 #
+# Craig Fitzgerald
+
 # This utility is usefull for determining what problems exist, what 
 #  foreign fields are missing, what <var> names are present, and generating
 #  indexes of uifields that can be used with the web page editor.
@@ -41,10 +42,8 @@
 #    have <var>'s in the english text, but dont have <var>'s in the spanish text
 #
 #     UifieldView.pl -language=spanish -e -f -ve -vnf -html > foo.html
-#
-#
-#
-#
+
+
 use warnings;
 use strict;
 use feature 'state';

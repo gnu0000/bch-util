@@ -1,12 +1,10 @@
 #!perl
 #
 # GenerateModuleIndicies.pl
+# Generate item indexes for the web based editor
 #
-# This utility is for examining id's for a survey
-#
-#
-# This module set comes from the original translation doc:
-#
+# Craig Fitzgerald
+
 
 use warnings;
 use strict;
@@ -184,9 +182,9 @@ sub CheckResponseText
 __DATA__
 
 [usage]
-GenerateTrivoxTextIndicies.pl  - Generate item indexes for the web based editor
+GenerateModuleIndicies.pl  - Generate module indexes for the web based editor
 
-Usage: GenerateTrivoxTextIndicies.pl  [options]
+Usage: GenerateModuleIndicies.pl  [options]
 
 WHERE: [options] are one or more of:
    -moduleid=(##|all) . Choose module to scan (or all)
@@ -196,6 +194,6 @@ WHERE: [options] are one or more of:
    -password=foo ...... Set the mysqlpassword (****************)
 
 EXAMPLES:
-   GenerateTrivoxTextIndicies.pl -mod=34
-   GenerateTrivoxTextIndicies.pl -mod=all
-   GenerateTrivoxTextIndicies.pl -root=files -mod=all
+   GenerateModuleIndicies.pl -mod=34
+   GenerateModuleIndicies.pl -mod=all
+   GenerateModuleIndicies.pl -root=files -mod=all

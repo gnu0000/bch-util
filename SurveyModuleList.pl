@@ -1,3 +1,11 @@
+#!perl
+#
+# SurveyModuleList
+# This utility displays a list of the survey modules
+# 
+# Craig Fitzgerald
+
+
 use DBI;
 use DBD::mysql;
 

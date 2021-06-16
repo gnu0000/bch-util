@@ -1,9 +1,9 @@
 #!perl -d
 #
 # AddUiFields.pl
-#
-# This utility is for adding new uifields to Trivox
+# Use google translate to add another language UI
 # 
+# Craig Fitzgerald
 
 
 use warnings;
@@ -428,9 +428,6 @@ sub Translate
    my $request = HTTP::Request->new(GET => $uri);
    my $res     = $user_agent->request($request);
 
-   #print "source: $source\n";
-   #print "ret: " . $res->content() . "\n";
-
    my $data = eval {from_json($res->content())};
    return "" if $@;
 
@@ -489,39 +486,6 @@ sub CreateSamples
    print $file Template("Latin1", code=>$code, source=>$source, translated=>$translated, transcoded=>$transcoded);
    close ($file);
    }
-
-#sub ShowStats
-#   {
-#   print Template("stats", %{$STATS});
-#   }
-#
-#sub ClearStats
-#   {
-#   $STATS = {count        =>0,
-#             noenglish    =>0,
-#             hasforeign   =>0,
-#             toobig       =>0,
-#             notranslation=>0};
-#   }
-#
-#sub IncStat
-#   {
-#   my ($name) = @_;
-#   $STATS->{$name} = 0 unless exists $STATS->{$name};
-#   $STATS->{$name}++;
-#   }
-#
-#sub GetStat
-#   {
-#   my ($name) = @_;
-#   return $STATS->{$name} || 0 ;
-#   }
-#
-#sub Test
-#   {
-#   Convert(ArgGet("test"), 1);
-#   exit(0);
-#   }
 
 sub Usage
    {

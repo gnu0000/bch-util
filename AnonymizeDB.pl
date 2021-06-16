@@ -1,4 +1,11 @@
 #!perl
+#
+# AnonymizeDB.pl
+# This utility anonymizes users names in the DB
+# 
+# Craig Fitzgerald
+
+
 use warnings;
 use strict;
 use feature 'state';

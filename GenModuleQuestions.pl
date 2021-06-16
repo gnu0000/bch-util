@@ -1,9 +1,11 @@
 #!perl
 #
 # GenModuleQuestions.pl
-#
 # This utility is for populating the questionnaires.modulequestions
 # Not that this needs to be run before and IRT modukes are imported in the system
+#
+# Craig Fitzgerald
+
 
 use warnings;
 use strict;
@@ -100,7 +102,7 @@ __DATA__
 
 [usage]
 GenModuleQuestions.pl  - Generate questionnaires.moduleQuestions table from existing data.
-Thiw will not work for IRT Modules!
+This will not work for IRT Modules!
 
 Usage: GenModuleQuestions.pl  [options]
 

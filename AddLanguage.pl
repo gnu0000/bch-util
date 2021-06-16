@@ -1,10 +1,10 @@
-#!perl -d
+#!perl
 #
 # AddLanguage.pl
-#
 # This utility is for adding a new language or backfilling an existing language
 # to Trivox
 # 
+# Craig Fitzgerald
 
 
 use warnings;

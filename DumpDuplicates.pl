@@ -1,9 +1,10 @@
 #!perl
 #
 # DumperDuplicates.pl
-#
 # This utility is for examining id's for a survey
 #
+# Craig Fitzgerald
+
 
 use warnings;
 use strict;

@@ -3,7 +3,9 @@
 # QuestionLinker.pl  - Utility to build links to the old web translator.
 # See the help at the bottom of this file
 #
-#
+# Craig Fitzgerald
+
+
 use warnings;
 use strict;
 use Gnu::TinyDB;

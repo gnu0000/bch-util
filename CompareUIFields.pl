@@ -1,9 +1,10 @@
 #!perl
 #
 # CompareUIFields.pl
-#
 # This utility is for examining the uifields and langui from 2 different databases
 #
+# Craig Fitzgerald
+
 
 use warnings;
 use strict;

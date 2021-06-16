@@ -1,9 +1,11 @@
 #!perl
 #
 # FixInteractions.pl
-#
 # This utility is for fixing broken groupids in unteractionTemplates 1/12/2017
 #
+# Craig Fitzgerald
+
+
 use warnings;
 use strict;
 use Gnu::TinyDB;

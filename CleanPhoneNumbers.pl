@@ -1,4 +1,10 @@
 #!perl
+#
+# CleanPhoneNumbers.pl
+# This utility cleans up crappy phone #'s 
+# 
+# Craig Fitzgerald
+
 
 use warnings;
 use strict;
@@ -13,10 +19,10 @@ MAIN:
    ArgParse(@ARGV) or die ArgGetError();
    ArgAddConfig() or die ArgGetError();
    Usage() if ArgIs("help");
-   ChangeEmails();
+   CleanupPhoneNumbers();
    exit(0);
 
-sub ChangeEmails
+sub CleanupPhoneNumbers
    {
    Connection("onlineadvocate", ArgsGet("host", "username", "password"));
 

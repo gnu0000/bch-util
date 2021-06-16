@@ -1,17 +1,18 @@
 #!perl
 #
 # ResponseFixFirst.pl 
-#
 # This utility is for cleaning up responsetext text
 #
+# Craig Fitzgerald
+
 # This utility is the first step in cleaning up the responsetext when adding a 
 #  new foreign language. 
 #
 # Specifically, this utility:
 # 1> Removes duplicate records (if the text is the same)
 # 2> strips various tags
-#
-#
+
+
 use warnings;
 use strict;
 use Gnu::TinyDB;

@@ -1,9 +1,11 @@
 #!perl
 #
 # KillUser.pl
-#
 # This utility is for deleting a Trivox user
 #
+# Craig Fitzgerald
+
+
 use warnings;
 use strict;
 use Gnu::TinyDB;
@@ -54,10 +56,10 @@ sub KillUser
    # researchdata
    my $us = FetchArray("select id from researchdata.userscreenings where userid=$userid or responderUserId=$userid");
    map {Exec("delete from researchdata.userquestionnairedata  where userscreeningsid=". $_->{id})} @{$us};
-   Exec("delete from researchdata.userscreenings where userid=$userid or responderUserId=$userid");
-   Exec("delete from researchdata.calculationresult  where SubjectUserId=$userid or ResponderUserId=$userid" );
-   Exec("delete from researchdata.evaluationresult   where SubjectUserId=$userid or ResponderUserId=$userid" );
-   Exec("delete from researchdata.questionresult     where SubjectUserId=$userid or ResponderUserId=$userid" );
+   Exec("delete from researchdata.userscreenings              where userid=$userid or responderUserId=$userid");
+   Exec("delete from researchdata.calculationresult           where SubjectUserId=$userid or ResponderUserId=$userid" );
+   Exec("delete from researchdata.evaluationresult            where SubjectUserId=$userid or ResponderUserId=$userid" );
+   Exec("delete from researchdata.questionresult              where SubjectUserId=$userid or ResponderUserId=$userid" );
 
    # userdata
    Exec("delete from userdata.users      where userid=$userid");
@@ -81,7 +83,7 @@ sub Exec
 __DATA__
 
 [usage]
-KillUser    - Eradicate a Trivox user from existence!
+KillUser  -  Eradicate a Trivox user from existence!
 
 USAGE: KillUser.pl [options]
 

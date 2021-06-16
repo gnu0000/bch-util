@@ -1,9 +1,10 @@
 #!perl
 #
 # QuestionFixLast.pl
-#
 # This utility is for cleaning up question/questiontext text
 #
+# Craig Fitzgerald
+
 # This utility is the last step in cleaning up the questions when adding a 
 #  new foreign language. 
 #
@@ -21,8 +22,8 @@
 #  get usage information.
 #
 # See the README for more information.
-#
-#
+
+
 use warnings;
 use strict;
 use Gnu::TinyDB;

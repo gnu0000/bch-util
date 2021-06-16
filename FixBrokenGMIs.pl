@@ -1,3 +1,11 @@
+#!perl
+#
+# FixBrokenGMIs.pl 
+# fix broken groupmembershipinclusions
+# 
+# Craig Fitzgerald
+
+
 use warnings;
 use strict;
 use feature 'state';

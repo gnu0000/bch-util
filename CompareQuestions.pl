@@ -1,9 +1,10 @@
 #!perl
 #
 # CompareQuestions.pl
-#
 # This utility is for examining the questions in a module from 2 different databases
 #
+# Craig Fitzgerald
+
 
 use warnings;
 use strict;
